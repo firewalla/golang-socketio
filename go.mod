@@ -2,7 +2,7 @@ module github.com/mtfelian/golang-socketio
 
 go 1.12
 
-replace github.com/mtfelian/golang-socketio => ../golang-socketio
+replace github.com/mtfelian/golang-socketio => ./
 
 require (
 	github.com/gorilla/websocket v1.4.0
