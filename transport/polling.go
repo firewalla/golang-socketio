@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	PlDefaultPingInterval   = 30 * time.Second
+	PlDefaultPingInterval   = 10 * time.Second
 	PlDefaultPingTimeout    = 60 * time.Second
 	PlDefaultReceiveTimeout = 60 * time.Second
 	PlDefaultSendTimeout    = 60 * time.Second
