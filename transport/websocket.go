@@ -14,7 +14,7 @@ import (
 const (
 	upgradeFailed = "Upgrade failed: "
 
-	wsDefaultPingInterval   = 30 * time.Second
+	wsDefaultPingInterval   = 10 * time.Second
 	wsDefaultPingTimeout    = 60 * time.Second
 	wsDefaultReceiveTimeout = 60 * time.Second
 	wsDefaultSendTimeout    = 60 * time.Second

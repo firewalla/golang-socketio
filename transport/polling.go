@@ -9,12 +9,13 @@ import (
 	"time"
 
 	"fmt"
+
 	"github.com/mtfelian/golang-socketio/logging"
 	"github.com/mtfelian/golang-socketio/protocol"
 )
 
 const (
-	PlDefaultPingInterval   = 10 * time.Second
+	PlDefaultPingInterval   = 30 * time.Second
 	PlDefaultPingTimeout    = 60 * time.Second
 	PlDefaultReceiveTimeout = 60 * time.Second
 	PlDefaultSendTimeout    = 60 * time.Second
